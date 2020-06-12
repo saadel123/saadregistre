@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+.myDiv {
+  border: 5px outset pink;
+  background-color: lightblue;    
+  text-align: left;
+}
+</style>
+<head>
+	<title>My Registre</title>
+</head>
+<body>
+<hr>
+ <form action="gmailto:saad.sabir.ss@gmail.com" method="past" enctype="text/plain">
+ 	<div class="myDiv">
+    <table>
+    <tr>
+ 	    <td>First name: </td>
+      <td><input type="text" required name="firstname"></td><br>
+    </tr>
+    <tr>
+      <td>Last name : </td>
+      <td><input type="text" required name="lastname"></td><br>
+    </tr>
+    <tr>
+       <td>Email     :</td>
+       <td><input type="email" required name="email"></td><br> 
+    </tr>
+     <tr>
+        <td>Password  :</td> 
+         <td><input type="password" required name="password"><br></td>
+     </tr>
+      <tr>
+       <td>Birthday  :</td> 
+      <td><input type="date" required name="birthday"><br></td> 
+      </tr>
+      <tr>
+        <td>Bio :</td>
+        <td><textarea name="name"></textarea></td>
+      </tr>
+  </table>
+  Do you red and agree with the condition<input type="checkbox" name="checkbox">
+ 	<hr>
+ 	Sexe:<br>
+ 	male :  <input type="radio" name="Sexe" value="male" ><br>
+ 	female: <input type="radio" name="Sexe" value="female" ><br>
+ 	<hr>
+ 	Pets:<br> 
+   <input type="checkbox" name="cat">cat<br>
+   <input type="checkbox" name="dog">dog<br>
+   <input type="checkbox" name="other" >other<br>
+   <hr>
+   Cars:<br>
+   <select name="Cars">
+   	<option value="volvo" >Volvo</option><br>
+   	<option value="audi"  >Audi</option><br>
+   	<option value="mercedes">Mercedes</option><br>
+   </select>
+   <br><hr>
+ 	<input type="submit" value="Registre">
+ 	<input type="Reset" value="suppprimer">
+ 	<br><br>
+</div>
+ </form>
+</body>
+</html>
